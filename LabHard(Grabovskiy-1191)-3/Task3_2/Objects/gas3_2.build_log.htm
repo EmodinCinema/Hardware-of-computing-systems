@@ -27,11 +27,15 @@ Project File Date:  10/28/2021
 <h2>Output:</h2>
 *** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'Target 1'
+main.c(287): warning: no newline at end of file [-Wnewline-eof]
+        
+        ^
+1 warning generated.
 compiling main.c...
 linking...
-Program Size: Code=1748 RO-data=224 RW-data=28 ZI-data=1928  
+Program Size: Code=1752 RO-data=224 RW-data=28 ZI-data=1928  
 FromELF: creating hex file...
-".\Objects\gas3_2.axf" - 0 Error(s), 0 Warning(s).
+".\Objects\gas3_2.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -57,11 +61,11 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.5.0
 
    * Component: Keil.Standalone::Device:Startup:1.0.0
+      Include file:  Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h
       Source file:   MDK\Device\Source\ARM\STM32F0xx_OPT.s
       Source file:   Drivers\CMSIS\Device\ST\STM32F0xx\Source\Templates\arm\startup_stm32f072xb.s
-      Include file:  Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h
       Source file:   Drivers\CMSIS\Device\ST\STM32F0xx\Source\Templates\system_stm32f0xx.c
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>
