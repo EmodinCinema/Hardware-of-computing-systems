@@ -1,0 +1,21 @@
+|gas1_3
+F <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+B => inst8.IN0
+B => inst7.IN1
+B => inst1.IN0
+B => inst1.IN1
+B => inst5.IN1
+C => inst8.IN1
+C => inst2.IN0
+C => inst2.IN1
+C => inst5.IN2
+D => inst8.IN2
+D => inst7.IN2
+D => inst3.IN0
+D => inst3.IN1
+A => inst7.IN0
+A => inst.IN0
+A => inst.IN1
+A => inst5.IN0
+
+
